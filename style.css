@@ -1,0 +1,62 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:0;
+    font-family: cursive;
+}
+
+header {
+    background: #123 url("img1.jpg") no-repeat center center/cover;
+    color: aliceblue;
+    text-align: center;
+    height: 100vh;
+    padding-top: 5em;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav a {
+    display: block;
+    padding: 1rem 2rem;
+
+}
+
+nav ul li {
+    float: left;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    padding: 16px;
+}
+
+header a {
+    display: inline-block;
+    background-color: aliceblue;
+    color:black;
+    padding: .50rem 2rem;
+    border-radius: 15%;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+
+@media(max-height:500px) {
+    header a{
+        padding-top: 9rem;
+
+    }
+
+} 
+
+nav p {
+    padding: 3rem;
+}
